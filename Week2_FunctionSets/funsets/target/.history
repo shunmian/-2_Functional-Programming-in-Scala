@@ -1,0 +1,9 @@
+console
+test
+main
+run
+exit
+console
+sbt eclipse
+exit
+test

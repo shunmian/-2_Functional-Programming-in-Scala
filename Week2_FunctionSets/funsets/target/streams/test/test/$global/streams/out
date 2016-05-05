@@ -1,0 +1,36 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$SubclassFingerscan@8f64c84, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains the elements on both sets[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains the element on any set and the union of that set with any other set[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff contains the elements on set s1 but not on s2[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff is empty for a set and a union of that set with any other set[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter from set with element 1 the elements that are not greater than one[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter from set with element 3 the elements that are not greater than one[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall positive numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall not all numbers bigger than 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall upper limit[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall for empty set[0m[0m
+[0m[[0minfo[0m] [0m[32m- exists for empty set[0m[0m
+[0m[[0minfo[0m] [0m[32m- exists at least a number greater than 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- map multiplying by 3[0m[0m
+[0m[[0minfo[0m] [0m[32m- map substracting 2 to set with several elements[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 17 events.[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 1 millisecond.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 17[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 17, Failed 0, Errors 0, Passed 17[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	funsets.FunSetSuite[0m
