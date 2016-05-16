@@ -27,15 +27,15 @@ object Main extends App {
   def sub(r1: Rational, r2: Rational): Rational = add(r1, neg(r2))
 
   def less(r1: Rational, r2: Rational): Boolean = r1.numer * r2.denomi - r1.denomi * r2.numer < 0
-  def max(r1: Rational, r2: Rational) = if (less(r1, r2)) r2 else r1
+  def max(r1: Rational, r2: Rational): Boolean = if (less(r1, r2)) r2 else r1
   
   
   //the compound procedure is used to react to the compound data
-  val r1:Rational = new Rational(4,5)  
+  val r1:Rational = new Rational(2,5)  
   val r2:Rational = new Rational(3,4)
   //for compound data, the interface between usage and implementation is "new" constructor
   
-  
+  println(toString(r1))
   val r3 = add(r1,r2)
   println(toString(r3))
   
