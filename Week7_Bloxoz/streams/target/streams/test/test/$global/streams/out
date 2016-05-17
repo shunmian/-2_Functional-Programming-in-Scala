@@ -1,0 +1,29 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(streams.BloxorzSuite, sbt.ForkMain$SubclassFingerscan@18d89d2e, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mBloxorzSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- terrain function level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- findChar level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- legal neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- done[0m[0m
+[0m[[0minfo[0m] [0m[32m- neighbors With History[0m[0m
+[0m[[0minfo[0m] [0m[32m- new neighbors only[0m[0m
+[0m[[0minfo[0m] [0m[32m- optimal solution for level 1[0m[0m
+[0m[[0minfo[0m] [0m[31m- optimal solution length for level 1 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List(Right, Right, Down, Right, Down, Right) had length 6 instead of expected length 7 (BloxorzSuite.scala:114)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 8 events.[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 125 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 7, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 8, Failed 1, Errors 0, Passed 7[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	streams.BloxorzSuite[0m
+[0m[[31merror[0m] [0m(assignment/test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
